@@ -5,13 +5,9 @@
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 body {
-   /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
-    width: 100%;*/
+ font-family:'Quicksand', sans-serif;
+ background-color: white;
+ color:black;
 }
 .guia{
     color: black;
@@ -34,33 +30,58 @@ p#pTexto{
    left: 323px;
 }
 div#imagen{
-   
-
 }
-
-.TodasBoxPerguntas{
+.Perguntas{
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    height: 60vh;
-    margin: 0;
-    width: 100%;
+    align-items: center;
 }
-.BoxPerguntas {
-    
-    width: 100%;
-    max-width: 600px;
+.faq{
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 2px solid black;
+    cursor: pointer;
 }
-.BoxPerguntas details summary{
-    background-color: white;
-    padding: 3%;
-    /*border-bottom: 2px solid #282828;*/
-    color:black;
-    font-weight: 600;
+.question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.BoxPerguntas details p{
-    background-color: #282828;
-    color: white;
-    padding: 3%;
+.question h3 {
+    font-size: 1.4rem;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+.answer p{
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.3rem;
+}
+
+.faq.active .answer{
+    max-height: 300px;
+    animation: fade 1s ease-in-out;
+}
+
+.faq.active svg{
+    transform: rotate(180deg);
+}
+svg{
+    transition: transform 0.5s ease-in;
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
