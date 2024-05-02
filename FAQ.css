@@ -43,24 +43,24 @@ div#imagen{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 60vh;
     margin: 0;
     width: 100%;
 }
 .BoxPerguntas {
     
-    width: 60%;
+    width: 100%;
     max-width: 600px;
 }
 .BoxPerguntas details summary{
     background-color: white;
-    padding: 2%;
-    border-bottom: 2px solid #282828;
+    padding: 3%;
+    /*border-bottom: 2px solid #282828;*/
     color:black;
     font-weight: 600;
 }
 .BoxPerguntas details p{
     background-color: #282828;
     color: white;
-    padding: 2%;
+    padding: 3%;
 }
