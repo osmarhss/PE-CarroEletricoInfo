@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    width: 100%;
+}
+
+section {
+    width: 60%;
+    max-width: 600px;
+}
+section details summary{
+    background-color: aquamarine;
+    padding: 2%;
+    border-bottom: 2px solid #282828;
+    color:white;
+    font-weight: 600;
+}
+section details p{
+    background-color: #282828;
+    color: white;
+    padding: 2%;
+}
