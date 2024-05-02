@@ -5,6 +5,40 @@
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 body {
+   /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    width: 100%;*/
+}
+.guia{
+    color: black;
+    background-color: rgb(255, 240, 237);
+    display: flex;
+    align-items: center;
+    height: 40vh;
+    font-size: 20px;
+}
+div#imagen{
+    position: relative;
+   left: 520px;
+}
+h1#h1Texto{
+   position: relative;
+   left: 323px;
+}
+p#pTexto{
+    position: relative;
+   left: 323px;
+}
+div#imagen{
+   
+
+}
+
+.TodasBoxPerguntas{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,19 +47,19 @@ body {
     margin: 0;
     width: 100%;
 }
-
-section {
+.BoxPerguntas {
+    
     width: 60%;
     max-width: 600px;
 }
-section details summary{
-    background-color: aquamarine;
+.BoxPerguntas details summary{
+    background-color: white;
     padding: 2%;
     border-bottom: 2px solid #282828;
-    color:white;
+    color:black;
     font-weight: 600;
 }
-section details p{
+.BoxPerguntas details p{
     background-color: #282828;
     color: white;
     padding: 2%;
