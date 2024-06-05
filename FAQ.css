@@ -9,6 +9,11 @@ body {
  background-color: white;
  color:black;
 }
+#Text{
+    padding-top: 4%;
+    padding-right: 35%;
+}
+
 p{
     text-align: justify;
 }
@@ -22,10 +27,18 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 .img{
     width: 100%;
+    margin-top: -15%;
+    margin-left: 73%;
+    margin-right: 5%;
+    /*padding-right: 10%;
+    padding-left: 70%;
+    margin-top: -10%;*/
+    
 }
 
 .Perguntas{
