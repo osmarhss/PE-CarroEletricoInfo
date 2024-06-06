@@ -13,10 +13,10 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="collapse navbar-collapse" id="menuNavbar">
                 <div class="navbar-nav ms-auto">
                     <a href="index.html" class="nav-link">Home</a>
+                    <a href="listacarro.html" class="nav-link">Guia de modelos</a>
                     <a href="#" class="nav-link">Cuidados essenciais</a>
                     <a href="#" class="nav-link">Testemunhos </a>
                     <a href="#" class="nav-link">FAQ</a>
-                    <a href="listacarro.html" class="nav-link">Guia de modelos</a>
                 </div>
             </div>
 
