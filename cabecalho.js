@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     <a href="listacarro.html" class="nav-link">Guia de modelos</a>
                     <a href="#" class="nav-link">Cuidados essenciais</a>
                     <a href="#" class="nav-link">Testemunhos </a>
-                    <a href="#" class="nav-link">FAQ</a>
+                    <a href="FAQ.html" class="nav-link">FAQ</a>
                 </div>
             </div>
 
