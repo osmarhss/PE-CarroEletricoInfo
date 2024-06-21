@@ -31,7 +31,6 @@ p{
 }
 #container{
     color: black;
-    background-color: rgb(255, 240, 237);
     display: flex;
     align-items: center;
     height: 40vh;
